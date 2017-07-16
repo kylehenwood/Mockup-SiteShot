@@ -1,0 +1,13 @@
+// footer
+.app-footer {
+  height: 48px;
+  position: relative;
+  padding: 8px 0;
+}
+.app-footer__copyright {
+  float: left;
+  color: $color-grey-600;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 32px;
+}

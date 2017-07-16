@@ -1,0 +1,25 @@
+// Welcome screen
+
+
+.welcome {
+  padding: 80px 0;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.welcome__headline {
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 0 0 24px;
+}
+.welcome__secondary {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0 0 24px;
+}
+.welcome__button {
+  max-width: 200px;
+  margin: 0 auto;
+}

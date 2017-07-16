@@ -1,0 +1,81 @@
+// app navigation
+
+// component
+.app-navigation {
+  position: relative;
+  padding: 24px 0 0;
+}
+
+// component__children
+.app-navigation__website {
+  line-height: 40px;
+  margin: 0 0 12px;
+}
+.app-navigation__quest {
+  position: absolute;
+  top: 24px;
+  right: 0;
+}
+.app-navigation__navigation {}
+
+
+
+
+
+// sub-component
+.site-navigation {}
+
+// sub-component__item
+.site-navigation__item {
+  float: left;
+  display: block;
+  margin: 0 40px 0 0;
+}
+
+
+.navigation-item {
+  cursor: pointer;
+  &:hover {
+    .navigation-item__text {
+      color: $color-grey-900;
+    }
+    .navigation-item__underline {
+      width: 12px;
+    }
+  }
+  &:active {
+    .navigation-item__text {
+      color: $color-grey-900;
+      transform: translateY(2px);
+    }
+    .navigation-item__underline {
+      width: 12px;
+    }
+  }
+}
+
+
+.navigation-item--active {
+  .navigation-item__text {
+    color: $color-grey-900!important;
+  }
+  .navigation-item__underline {
+    width: 100%!important;
+  }
+}
+
+.navigation-item__text {
+  text-transform: uppercase;
+  color: $color-grey-500;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 12px 0 10px;
+}
+.navigation-item__underline {
+  margin: 0 auto;
+  width: 0;
+  height: 2px;
+  background: $color-pink-500;
+  transition: width 120ms ease-out;
+}

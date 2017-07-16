@@ -1,0 +1,60 @@
+// header bar layout
+.app-header-layout {
+  position: relative;
+  height: 48px;
+  padding: 0 0 0 220px;
+}
+
+.app-header-layout__profile {
+  float: right;
+  position: relative;
+  z-index: 10;
+}
+
+.app-header-layout__upgrade {
+  float: right;
+  position: relative;
+  padding: 12px 48px 12px 0;
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: $color-pink-800;
+  }
+}
+
+// upgrade button
+.header-upgrade-button {
+  @include noselect;
+  display: block;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  padding: 2px 0 0;
+  line-height: 20px;
+  border-bottom: 2px solid rgba(white,0.6);
+  &:hover,
+  &:active {
+    border-color: white;
+  }
+  &:active {
+    transform: translateY(2px);
+  }
+}
+
+
+// back button
+.app-header-layout__websites {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  height: 48px;
+  width: 220px;
+  padding: 4px 0;
+}

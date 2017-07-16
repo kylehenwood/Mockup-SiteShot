@@ -1,0 +1,24 @@
+// Billing
+$plan-width: 280px;
+
+.billing-layout {
+  position: relative;
+  padding-left: $plan-width;
+  @include screen-mob {
+    padding: 0;
+  }
+}
+.billing-layout__plan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: $plan-width;
+  @include screen-mob {
+    position: static;
+    width: auto;
+    margin: 0 0 24px;
+  }
+}
+.billing-layout__form {
+  padding: 0 0 0 24px;
+}

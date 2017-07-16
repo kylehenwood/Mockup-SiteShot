@@ -1,0 +1,23 @@
+// table scs
+
+
+.table {
+  width: 100%;
+}
+.table__row {
+  border-bottom: 1px solid $color-grey-300;
+}
+.table__row--heading {
+  font-weight: 600;
+}
+
+.table__cell {
+  text-align: left;
+  padding: 8px 0;
+  line-height: 24px;
+  @include font-size(1.6);
+}
+
+.table__cell--160 {
+  width: 160px;
+}

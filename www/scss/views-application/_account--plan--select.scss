@@ -1,0 +1,81 @@
+// plan select
+
+.plan-select {
+  margin: 40px 0;
+}
+.plan-select__item {
+  visibility: hidden;
+  width: (100%/3);
+  float: left;
+  padding: 12px;
+  opacity: 0;
+  transform: translateY(48px);
+  transition: all 360ms ease-out;
+}
+.plan-select__item--active {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.plan-option {
+  position: relative;
+  height: 320px;
+  perspective: 800px;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+$anim-delay: 320ms;
+$anim-length: 400ms;
+
+.plan-option--flip {
+  .plan-option__front {
+    visibility: hidden;
+    z-index: 2;
+    opacity: 0;
+    transform: rotateY(-180deg);
+    transition: all $anim-length ease-in-out;
+  }
+  .plan-option__back {
+    visibility: visible;
+    z-index: 1;
+    opacity: 1;
+    transform: rotateY(0);
+    transition: all $anim-length ease-in-out;
+    //transition-delay: $anim-delay;
+  }
+}
+
+.plan-option__front,
+.plan-option__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 320px;
+  border-radius: 4px;
+  padding: 256px 24px 24px;
+  background: white;
+  box-shadow: $shadow-box;
+  backface-visibility: hidden;
+}
+
+.plan-option__front {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  transform: rotateY(0);
+  transition: all $anim-length ease-in-out;
+  //transition-delay: $anim-delay;
+}
+.plan-option__back {
+  visibility: hidden;
+  opacity: 0;
+  z-index: 2;
+  transform: rotateY(180deg);
+  transition: all $anim-length ease-in-out;
+}
+

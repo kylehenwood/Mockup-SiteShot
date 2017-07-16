@@ -1,0 +1,105 @@
+
+
+.page-controls {
+  padding: 16px;
+  line-height: 24px;
+  margin: 0 0 24px;
+  background: $color-grey-200;
+}
+
+
+
+
+
+// diff page
+.page-diff {
+  position: relative;
+  padding-left: 180px;
+  border-top: 1px solid $color-grey-300;
+}
+.page-diff__versions {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 180px;
+  padding: 24px 0 0;
+}
+.page-diff__screenshot {
+  padding: 24px 0 0 24px;
+  border-left: 1px solid $color-grey-300;
+}
+
+
+
+// screenshot
+.screenshot {
+  position: relative;
+}
+.screenshot__fullscreen {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 24px;
+}
+.screenshot__image {}
+
+.screenshot-test {
+  background: $color-grey-400;
+  height: 800px;
+}
+
+
+
+
+
+
+
+.fullscreen-button {
+  display: block;
+  padding: 8px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: rgba($color-grey-900,0.3);
+  &:hover {
+    background: rgba($color-grey-900,0.2);
+  }
+  &:active {
+    background: rgba($color-grey-900,0.4);
+  }
+}
+
+
+
+// version stuff
+.version-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+// version list
+.version-list {
+  padding: 12px 0;
+  margin: 0 0 0 -12px;
+}
+.version-list__item {
+  @include noselect;
+  cursor: pointer;
+  border-radius: 4px 0 0 4px;
+  line-height: 24px;
+  padding: 4px 12px;
+  color: $color-grey-700;
+  &:hover {
+    background: $color-grey-200;
+  }
+  &:active {
+    background: $color-grey-300;
+  }
+}
+.version-list__item--active {
+  color: white!important;
+  background: $color-pink-500!important;
+}

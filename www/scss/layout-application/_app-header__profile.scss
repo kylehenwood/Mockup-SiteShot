@@ -1,0 +1,131 @@
+// profile component
+.profile {
+  position: relative;
+  height: 48px;
+}
+.profile__button {
+  padding: 4px 0;
+}
+.profile__dropdown {
+  position: absolute;
+  right: 0;
+  top: 44px;
+}
+
+
+// profile button
+.profile-button {
+  @include noselect;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  padding: 0 28px 0 0;
+  height: 40px;
+  color: rgba(white,0.8);
+  &:hover,
+  &:active{
+    color: white;
+  }
+  &:active {
+    transform: translateY(2px);
+  }
+}
+.profile-button--active {
+  color: white;
+}
+.profile-button__name {
+  @include nowrap;
+  font-size: 14px;
+  padding: 8px 0;
+  line-height: 24px;
+  font-weight: 600;
+}
+.profile-button__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 28px;
+  height: 40px;
+  padding: 12px 0 12px 8px;
+}
+
+
+// profile dropdown
+.profile-dropdown {
+  position: relative;
+  display: none;
+  background: white;
+  border-radius: 4px;
+  box-shadow: $shadow-dropdown;
+  transition: all 80ms ease-in;
+  animation: dropdown-animation 160ms ease-out;
+  animation-fill-mode: forwards;
+  &:before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: -8px;
+    right: 24px;
+    border-bottom: 8px solid white;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+  }
+}
+
+.profile-dropdown--active {
+  display: block;
+}
+
+.profile-dropdown__profile {
+  position: relative;
+  padding: 16px 12px 16px 64px;
+}
+
+.profile-dropdown__avatar {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 32px;
+  height: 32px;
+  background: $color-black;
+  border-radius: 4px;
+}
+
+.profile-dropdown__username {
+  @include nowrap;
+  @include font-size(1.6);
+  line-height: 1;
+  padding: 0 0 4px;
+  font-weight: 600;
+}
+
+.profile-dropdown__email {
+  @include nowrap;
+  @include font-size(1.2);
+  padding: 0 0 8px;
+}
+
+.profile-dropdown__section {
+  padding: 12px 0;
+  border-top: 1px solid $color-grey-300;
+}
+
+.profile-dropdown__item {
+  @include noselect;
+  @include nowrap;
+  display: block;
+  color: $text-black!important;
+  line-height: 32px;
+  cursor: pointer;
+  position: relative;
+  padding: 0 6px 0 16px;
+  border-left: 4px solid white;
+  &:hover {
+    border-color: $color-pink-500;
+    background: $color-grey-200;
+  }
+  &:active {
+    border-color: $color-pink-500;
+    background: $color-grey-300;
+  }
+}
