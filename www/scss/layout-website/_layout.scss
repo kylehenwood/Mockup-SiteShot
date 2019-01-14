@@ -38,7 +38,7 @@ html {
 
 .layout__banner {
   background-position:center;
-  @include verticalGradient($color-cyan-700,$color-purple-800);
+  @include verticalGradient($color-cyan-700,$color-cyan-900);
 }
 .layout__banner-grid {
   width: 100%;
