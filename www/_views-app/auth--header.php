@@ -1,7 +1,7 @@
 <html class="svg js cssanimations csstransitions"><head lang="en">
   <meta charset="UTF-8">
   <title>SiteShot - Sign in</title>
-  <link rel="stylesheet" type="text/css" href="scss/application.css">
+  <link rel="stylesheet" type="text/css" href="scss/public.css">
   <script type="text/javascript" src="js/vendor/jquery-1.9.0.min.js"></script>
   <script type="text/javascript" src="js/vendor/modernizr-2.6.2.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
