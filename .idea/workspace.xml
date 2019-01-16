@@ -52,7 +52,7 @@
         </entry>
       </file>
       <file leaf-file-name="account--billing-select.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/_views-app/account--billing-select.php">
+        <entry file="file://$PROJECT_DIR$/www/_views/account--billing-select.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="884">
               <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
@@ -111,47 +111,47 @@
         <option value="$PROJECT_DIR$/www/classes/modelClass.php" />
         <option value="$PROJECT_DIR$/www/views/chrome/master.php" />
         <option value="$PROJECT_DIR$/www/classes/templateClass.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/chrome-footer.php" />
+        <option value="$PROJECT_DIR$/www/_views/chrome-footer.php" />
         <option value="$PROJECT_DIR$/www/_views-web/chrome-header.php" />
         <option value="$PROJECT_DIR$/www/views/viewClass.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/chrome-header.php" />
+        <option value="$PROJECT_DIR$/www/_views/chrome-header.php" />
         <option value="$PROJECT_DIR$/www/scss/views-application/auth/_app--auth.scss" />
-        <option value="$PROJECT_DIR$/www/_views-app/app--signin.php" />
+        <option value="$PROJECT_DIR$/www/_views/app--signin.php" />
         <option value="$PROJECT_DIR$/www/views/webViewClass.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/chrome-header--auth.php" />
+        <option value="$PROJECT_DIR$/www/_views/chrome-header--auth.php" />
         <option value="$PROJECT_DIR$/www/index.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/chrome-navigation.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/app--site-people.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/app--site-notifications.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/app--site-settings.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/app--site-pages.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/app--site-pages-page.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/app--add-site.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/app--dashboard.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/app--site-integrations.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/app--site-integrations-integration.php" />
+        <option value="$PROJECT_DIR$/www/_views/chrome-navigation.php" />
+        <option value="$PROJECT_DIR$/www/_views/app--site-people.php" />
+        <option value="$PROJECT_DIR$/www/_views/app--site-notifications.php" />
+        <option value="$PROJECT_DIR$/www/_views/app--site-settings.php" />
+        <option value="$PROJECT_DIR$/www/_views/app--site-pages.php" />
+        <option value="$PROJECT_DIR$/www/_views/app--site-pages-page.php" />
+        <option value="$PROJECT_DIR$/www/_views/app--add-site.php" />
+        <option value="$PROJECT_DIR$/www/_views/app--dashboard.php" />
+        <option value="$PROJECT_DIR$/www/_views/app--site-integrations.php" />
+        <option value="$PROJECT_DIR$/www/_views/app--site-integrations-integration.php" />
         <option value="$PROJECT_DIR$/www/scss/layout-website/_layout-header.scss" />
         <option value="$PROJECT_DIR$/www/scss/layout-application/_app-header.scss" />
         <option value="$PROJECT_DIR$/www/scss/layout-application/_app-layout.scss" />
         <option value="$PROJECT_DIR$/www/scss/layout-application/_app-header__profile.scss" />
         <option value="$PROJECT_DIR$/www/scss/layout-application/_app-header__site-switcher.scss" />
         <option value="$PROJECT_DIR$/www/scss/shared/_color.scss" />
-        <option value="$PROJECT_DIR$/www/_views-app/chrome-navigation--account.php" />
+        <option value="$PROJECT_DIR$/www/_views/chrome-navigation--account.php" />
         <option value="$PROJECT_DIR$/www/scss/layout-website/_layout.scss" />
-        <option value="$PROJECT_DIR$/www/_views-app/account--profile.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/account--notifications.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/account--billing.php" />
+        <option value="$PROJECT_DIR$/www/_views/account--profile.php" />
+        <option value="$PROJECT_DIR$/www/_views/account--notifications.php" />
+        <option value="$PROJECT_DIR$/www/_views/account--billing.php" />
         <option value="$PROJECT_DIR$/www/views/appViewClass.php" />
         <option value="$PROJECT_DIR$/www/scss/components/_form.scss" />
-        <option value="$PROJECT_DIR$/www/_views-app/account--billing-payment.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/account--billing-result.php" />
-        <option value="$PROJECT_DIR$/www/_views-app/chrome-header--site.php" />
+        <option value="$PROJECT_DIR$/www/_views/account--billing-payment.php" />
+        <option value="$PROJECT_DIR$/www/_views/account--billing-result.php" />
+        <option value="$PROJECT_DIR$/www/_views/chrome-header--site.php" />
         <option value="$PROJECT_DIR$/www/scss/components/_modal-upgrade.scss" />
         <option value="$PROJECT_DIR$/www/scss/style.scss" />
         <option value="$PROJECT_DIR$/www/scss/components/_button-switch.scss" />
         <option value="$PROJECT_DIR$/www/scss/views-application/_account--plan--select.scss" />
         <option value="$PROJECT_DIR$/www/js/main.js" />
-        <option value="$PROJECT_DIR$/www/_views-app/account--billing-select.php" />
+        <option value="$PROJECT_DIR$/www/_views/account--billing-select.php" />
       </list>
     </option>
   </component>
@@ -242,7 +242,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_views-app" />
+              <option name="myItemId" value="_views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -269,7 +269,7 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\siteshot\www\scss\components" />
       <recent name="C:\xampp\htdocs\siteshot\www\scss\views-application" />
-      <recent name="C:\xampp\htdocs\siteshot\www\_views-app" />
+      <recent name="C:\xampp\htdocs\siteshot\www\_views" />
       <recent name="C:\xampp\htdocs\siteshot\www\_views-web" />
       <recent name="C:\xampp\htdocs\siteshot\www" />
     </key>
@@ -472,7 +472,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/_views-app/account--billing-select.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/account--billing-select.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -521,7 +521,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../PhotoDelivery/_mockup/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/www/_views-app/account--billing-select.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/account--billing-select.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -559,7 +559,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/chrome-footer.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/chrome-footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -580,63 +580,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/app--site-people.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/app--site-people.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/app--site-notifications.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/app--site-notifications.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="19" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/app--site-settings.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/app--site-settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/app--site-pages-page.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/app--site-pages-page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="10" column="89" lean-forward="false" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/app--site-pages.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/app--site-pages.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/app--add-site.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/app--add-site.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="238" column="6" lean-forward="false" selection-start-line="238" selection-start-column="6" selection-end-line="238" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/app--dashboard.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/app--dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="77" column="95" lean-forward="false" selection-start-line="77" selection-start-column="95" selection-end-line="77" selection-end-column="95" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/app--site-integrations.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/app--site-integrations.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="22" column="126" lean-forward="false" selection-start-line="22" selection-start-column="126" selection-end-line="22" selection-end-column="126" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/app--site-integrations-integration.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/app--site-integrations-integration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="11" column="96" lean-forward="false" selection-start-line="11" selection-start-column="96" selection-end-line="11" selection-end-column="96" />
@@ -678,7 +678,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/chrome-navigation.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/chrome-navigation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="14" column="86" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="6" />
@@ -706,14 +706,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/account--profile.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/account--profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/account--notifications.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/account--notifications.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
@@ -727,7 +727,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/account--billing.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/account--billing.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
@@ -741,14 +741,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/account--billing-payment.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/account--billing-payment.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="21" column="72" lean-forward="false" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/account--billing-result.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/account--billing-result.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="14" column="72" lean-forward="false" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
@@ -799,7 +799,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/_views-app/account--billing-select.php">
+    <entry file="file://$PROJECT_DIR$/www/_views/account--billing-select.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />

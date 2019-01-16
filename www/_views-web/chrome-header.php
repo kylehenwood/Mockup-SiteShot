@@ -35,7 +35,7 @@
         </a>
       </div>
       <div class="header-layout__signup">
-        <a href="index.php?pageID=app&page=sign-in" class="button button--white-stroke button--40">
+        <a href="../www-app/?pageID=app&page=sign-in" class="button button--white-stroke button--40">
           Sign in
         </a>
       </div>
@@ -60,7 +60,3 @@
 
   </div>
 </div>
-
-
-
-

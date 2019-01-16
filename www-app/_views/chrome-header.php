@@ -10,7 +10,7 @@
 </head>
 <body class="layout-app toast-container">
 
-<?php include './_views-app/modal--upgrade.php'; ?>
+<?php include './_views/modal--upgrade.php'; ?>
 
   <div class="layout-app__toast">
     <div class="toast">
@@ -30,9 +30,12 @@
     <div class="center center--1120">
       <div class="app-header-layout">
 
+        <?php if ($headerLogo === true) { ?>
 
+        <!-- Logo -->
+        <div class="app-header-layout__logo"></div>
 
-
+      <?php } else { ?>
         <!-- All Websites -->
         <div class="app-header-layout__websites">
           <a class="websites-button" href="index.php?pageID=app&page=dashboard">
@@ -42,7 +45,7 @@
             <div class="websites-button__text">All projects</div>
           </a>
         </div>
-
+      <?php } ?>
 
         <!-- profile -->
         <div class="app-header-layout__profile">
@@ -68,7 +71,7 @@
                 <div class="profile-dropdown__section">
                   <a class="profile-dropdown__item" href="index.php?pageID=app&page=account-notifications">Notifications</a>
                   <a class="profile-dropdown__item" href="index.php?pageID=app&page=account-billing">Billing & Usage</a>
-                  <a class="profile-dropdown__item" href="index.php?pageID=app&page=sign-in">Sign out</a>
+                  <a class="profile-dropdown__item" href="../www/index.php">Sign out</a>
                 </div>
               </div>
             </div>

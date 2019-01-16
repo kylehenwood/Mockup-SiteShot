@@ -18,7 +18,7 @@
       <div class="header-layout">
         <div class="header-layout__logo">
 
-          <a class="header-logo header-logo--active" href="index.php?pageID=web">
+          <a class="header-logo header-logo--active" href="../www/index.php">
             <div class="header-logo__mark">
               <div class="mark-static"></div>
             </div>

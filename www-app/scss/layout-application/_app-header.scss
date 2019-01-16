@@ -58,3 +58,22 @@
   width: 220px;
   padding: 4px 0;
 }
+
+// back button
+.app-header-layout__logo {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  height: 48px;
+  width: 220px;
+  padding: 6px 0;
+  &:before {
+    content: '';
+    display: block;
+    height: 36px;
+    width: 80px;
+    background: white;
+    border-radius: 8px;
+  }
+}
